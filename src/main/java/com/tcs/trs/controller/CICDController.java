@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CICDController {
 
-	@GetMapping("/test")
+	@GetMapping("/message")
 	public String showMeassge()
 	{
-		return "Welcome to CICD Pipeline Demo Project";
+		return "Welcome to CICD Pipeline Demo Project !!!";
 	}
 }
